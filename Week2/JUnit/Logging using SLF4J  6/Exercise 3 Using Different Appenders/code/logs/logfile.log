@@ -1,0 +1,12 @@
+2025-06-26 23:52:44.816 [main] DEBUG com.example.AppenderLoggingExample - Debug log: Starting application...
+2025-06-26 23:52:44.825 [main] INFO  com.example.AppenderLoggingExample - Info log: Application is running.
+2025-06-26 23:52:44.825 [main] WARN  com.example.AppenderLoggingExample - Warning log: Low memory warning.
+2025-06-26 23:52:44.825 [main] ERROR com.example.AppenderLoggingExample - Error log: Unexpected crash occurred.
+2025-06-27 22:09:54.244 [main] DEBUG com.example.AppenderLoggingExample - Debug log: Starting application...
+2025-06-27 22:09:54.247 [main] INFO  com.example.AppenderLoggingExample - Info log: Application is running.
+2025-06-27 22:09:54.248 [main] WARN  com.example.AppenderLoggingExample - Warning log: Low memory warning.
+2025-06-27 22:09:54.248 [main] ERROR com.example.AppenderLoggingExample - Error log: Unexpected crash occurred.
+2025-06-27 22:11:36.296 [main] DEBUG com.example.AppenderLoggingExample - Debug log: Starting application...
+2025-06-27 22:11:36.298 [main] INFO  com.example.AppenderLoggingExample - Info log: Application is running.
+2025-06-27 22:11:36.299 [main] WARN  com.example.AppenderLoggingExample - Warning log: Low memory warning.
+2025-06-27 22:11:36.299 [main] ERROR com.example.AppenderLoggingExample - Error log: Unexpected crash occurred.
