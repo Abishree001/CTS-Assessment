@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="employee1" class="com.cognizant.employee_management_rest.model.Employee">
+        <constructor-arg value="1"/>
+        <constructor-arg value="John"/>
+        <constructor-arg value="50000"/>
+    </bean>
+
+    <bean id="employee2" class="com.cognizant.employee_management_rest.model.Employee">
+        <constructor-arg value="2"/>
+        <constructor-arg value="Emma"/>
+        <constructor-arg value="60000"/>
+    </bean>
+
+    <bean id="employee3" class="com.cognizant.employee_management_rest.model.Employee">
+        <constructor-arg value="3"/>
+        <constructor-arg value="Alex"/>
+        <constructor-arg value="70000"/>
+    </bean>
+
+    <bean id="employeeList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="employee1"/>
+                <ref bean="employee2"/>
+                <ref bean="employee3"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+</beans>
