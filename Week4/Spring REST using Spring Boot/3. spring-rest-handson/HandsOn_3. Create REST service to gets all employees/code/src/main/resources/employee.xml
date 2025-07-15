@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="department" class="com.cognizant.model.Department">
+        <property name="id" value="1"/>
+        <property name="name" value="Human Resources"/>
+    </bean>
+
+    <bean id="skill1" class="com.cognizant.model.Skill">
+        <property name="id" value="1"/>
+        <property name="name" value="Java"/>
+    </bean>
+
+    <bean id="skill2" class="com.cognizant.model.Skill">
+        <property name="id" value="2"/>
+        <property name="name" value="Spring"/>
+    </bean>
+
+    <bean id="employee1" class="com.cognizant.model.Employee">
+        <property name="id" value="100"/>
+        <property name="name" value="John Doe"/>
+        <property name="salary" value="50000"/>
+        <property name="permanent" value="true"/>
+        <property name="department" ref="department"/>
+        <property name="skills">
+            <list>
+                <ref bean="skill1"/>
+                <ref bean="skill2"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="employeeDao" class="com.cognizant.dao.EmployeeDao">
+        <property name="employeeList">
+            <list>
+                <ref bean="employee1"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>
