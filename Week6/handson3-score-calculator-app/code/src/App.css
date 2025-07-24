@@ -1,0 +1,52 @@
+/* App.css */
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: left;
+}
+
+.heading {
+  color: #2a4365;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card hr {
+  border: none;
+  height: 2px;
+  background-color: #cbd5e0;
+  margin-bottom: 15px;
+}
+
+.name-line {
+  color: #1e90ff; /* Blue */
+}
+
+.school-line {
+  color: #ff69b4; /* Pink */
+}
+
+.total-line {
+  color: #8a2be2; /* Violet */
+}
+
+.score-line {
+  color: #2e8b57; /* Green */
+}
+
+.card p {
+  font-size: 18px;
+  margin: 8px 0;
+}
