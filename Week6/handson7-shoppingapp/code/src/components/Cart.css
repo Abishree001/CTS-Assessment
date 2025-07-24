@@ -1,0 +1,25 @@
+.cart-card {
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f1f5f8;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  display: inline-block;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.cart-card:hover {
+  transform: scale(1.05);
+}
+
+.cart-card h3 {
+  color: #2c3e50;
+}
+
+.cart-card p {
+  color: #27ae60;
+  font-weight: bold;
+}
