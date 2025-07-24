@@ -1,0 +1,14 @@
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #aaa;
+  background-color: #f9f9f9;
+}
+
+dt {
+  font-weight: 500;
+}
