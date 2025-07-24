@@ -1,0 +1,37 @@
+/* Posts.css */
+
+.posts-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  background: #f0f8ff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-card {
+  background-color: #ffffff;
+  border-left: 5px solid #4caf50;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+  border-left-color: #2196f3;
+}
+
+.post-title {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-body {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
