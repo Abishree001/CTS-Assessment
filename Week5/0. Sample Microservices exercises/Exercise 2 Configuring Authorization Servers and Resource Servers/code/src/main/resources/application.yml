@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+jwt:
+  secret: a-string-secret-at-least-256-bits-long
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # secret-key: no need here since we're using custom decoder
