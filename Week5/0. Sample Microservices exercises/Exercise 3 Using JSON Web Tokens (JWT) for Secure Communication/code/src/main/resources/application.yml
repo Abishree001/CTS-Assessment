@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+jwt:
+  secret: a-string-secret-at-least-256-bits-long
+  expiration: 3600000 
