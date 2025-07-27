@@ -1,11 +1,18 @@
-package com.example.paymentservice;
+package com.example.paymentservice.controller;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.example.paymentservice.service.PaymentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
-@SpringBootApplication
-public class PaymentServiceApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(PaymentServiceApplication.class, args);
+@RestController
+@RequestMapping("/payment")
+public class PaymentController {
+
+    @Autowired
+    private PaymentService paymentService;
+
+    @GetMapping("/pay")
+    public String pay() {
+        return paymentService.processPayment();
     }
 }
