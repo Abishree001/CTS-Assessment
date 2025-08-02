@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.card {
+  background-color: #e3f2fd;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.buttons > button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buttons > button:hover {
+  background-color: #0d47a1;
+}
