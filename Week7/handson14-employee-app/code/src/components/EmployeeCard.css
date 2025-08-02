@@ -1,0 +1,33 @@
+/* src/components/EmployeeCard.css */
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.card.light {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.card.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.btn.light {
+  background-color: #ddd;
+  color: #000;
+}
+
+.btn.dark {
+  background-color: #555;
+  color: #fff;
+}
